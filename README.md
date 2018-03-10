@@ -1,6 +1,6 @@
 # Raspberry Pi | Custom Message of the Day
 My custom Raspberry Pi Message of the Day script.
-![screenshot](Screenshot\ 2018-03-10\ at\ 8.46.14\ AM.png)
+![screenshot](https://github.com/evansharp/rpi-motd/raw/master/Screenshot%202018-03-10%20at%208.46.14%20AM.png)
 
 ## Installation
 
