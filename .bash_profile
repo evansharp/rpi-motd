@@ -17,7 +17,7 @@ echo "$(tput setaf 2)
  ~ (   ) (   ) ~  Memory.............: `cat /proc/meminfo | grep MemFree | awk {'print $2'}`kB (Free) / `cat /proc/meminfo | grep MemTotal | awk {'print $2'}`kB (Total)
 ( : '~'.~.'~' : ) Load Averages......: ${one}, ${five}, ${fifteen} (1, 5, 15 min)
  ~ .~ (   ) ~. ~  Running Processes..: `ps ax | wc -l | tr -d " "`
-  (  : '~' :  )   Upgradable Packages: `/usr/lib/update-notifier/apt-check --human-readable | paste -sd' '`
+  (  : '~' :  )   Upgradable Packages: `apt-get -s dist-upgrade | grep "^[[:digit:]]\+ upgraded"`
    '~ .~~~. ~'
        '~'
 $(tput sgr0)"
